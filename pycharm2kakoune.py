@@ -1,5 +1,6 @@
 import xml.etree.ElementTree as ET
-import re, sys
+import re
+import sys
 
 tree = ET.parse('odoo-pycharm-templates/Odoo.xml')
 root = tree.getroot()
@@ -8,6 +9,7 @@ for template in root:
     value = template.attrib.get('value')
     name = template.attrib.get('name')
     print(name)
+    name = "%s - %s" % (name, name)
     res = re.findall(r"(\$(.*?)\$)+", value)
     for i in range(0, len(res)):
         rr = res[i]
@@ -24,6 +26,6 @@ for template in root:
     if language not in ['xml', 'python']:
         language = 'other'
 
-    f = open("%s/%s" % (language, name), "w")
+    f = open("snippets/%s/%s" % (language, name), "w")
     f.write(value)
     f.close()
