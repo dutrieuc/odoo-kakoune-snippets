@@ -1,0 +1,1 @@
+<button name="${0:button_method_name}" class="oe_highlight" type="object" string="ObjectButton"/>

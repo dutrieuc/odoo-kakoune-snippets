@@ -1,0 +1,4 @@
+<!-- position values: after|before|replace|attributes|inside -->
+<xpath expr="//field[@name='${0:field_name}']" position="${1:position}">
+    <!-- Add your fields or attributes here -->
+</xpath>

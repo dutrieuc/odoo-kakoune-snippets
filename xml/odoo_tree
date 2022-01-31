@@ -1,0 +1,9 @@
+<record id="view_${0:tree_id}_tree" model="ir.ui.view">
+    <field name="name">view.${1:object_name}.tree</field>
+    <field name="model">${1:object_name}</field>
+    <field name="arch" type="xml">
+        <tree string="${3:tree_desc}">
+            <field name="name"/>
+        </tree>
+    </field>
+</record>

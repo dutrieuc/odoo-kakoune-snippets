@@ -1,0 +1,1 @@
+${0:field_name}_id = fields.Many2one(comodel_name="${1:target_relation}", string="${2:field_label}", required=False, )

@@ -1,0 +1,13 @@
+        <record id="view_${0:res_model}_kanban" model="ir.ui.view">
+            <field name="name">view.${1:object_name}.kanban</field>
+            <field name="model">${1:object_name}</field>
+            <field name="arch" type="xml">
+                <kanban>
+                    <field name="name"/>
+                    <templates>
+                        <t t-name="kanban-box">
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>

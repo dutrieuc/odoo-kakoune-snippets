@@ -1,0 +1,12 @@
+<record id="rule_${0:rule_id}" model="ir.rule">
+    <field name="name">${1:rule_name}</field>
+    <field ref="model_${2:model_name}" name="model_id"/>
+    <field name="domain_force">[('', '', )]</field>
+    <field name="perm_write" eval="1"/>
+    <field name="perm_create" eval="1"/>
+    <field name="perm_read" eval="1"/>
+    <field name="perm_unlink" eval="1"/>
+    <!-- You can attach this rule to a specific group, Or make it Global -->
+    <field name="groups" eval="[(4, ref('${3:group_xml_id}'))]"/>
+    <!--<field name="global" eval="1"/> -->
+</record>

@@ -1,0 +1,4 @@
+<record id="security_categ_${0:name}" model="ir.module.category">
+    <field name="name">${1:app_name}</field>
+    <field name="sequence" eval="1"/>
+</record>

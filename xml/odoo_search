@@ -1,0 +1,9 @@
+<record id="view_${0:model}_search" model="ir.ui.view">
+   <field name="name">view.${1:object}.search</field>
+   <field name="model">${1:object}</field>
+    <field name="arch" type="xml">
+        <search string="${3:search_view_label}">
+      <field name="name" string="string" domain="[('', 'ilike', )]"/>
+    </search>
+   </field>
+</record>

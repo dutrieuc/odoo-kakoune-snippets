@@ -1,0 +1,1 @@
+${0:field_name} = fields.Datetime(string="${1:field_label}", required=False, default=fields.Datetime.now)

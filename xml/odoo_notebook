@@ -1,0 +1,7 @@
+<notebook>
+    <page string="${0:page_label}">
+        <group>
+            <field name="${1:field_name}"/>
+        </group>
+    </page>
+</notebook>

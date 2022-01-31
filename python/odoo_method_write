@@ -1,0 +1,4 @@
+@api.multi
+def write(self, values):
+    # Add code here  
+    return super(${0:ClassName}, self).write(values)

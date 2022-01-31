@@ -1,0 +1,11 @@
+<!-- QWeb Reports -->
+<!-- NAME & FILE_NAME should be the same -->
+        <report
+            id="${0:report_name}_report"
+            model="${1:res_model}"
+            report_type="qweb-pdf"
+            string="${2:report_label}"
+            menu="True"
+            name="${3:report_template_xml_id}"
+            file="${3:report_template_xml_id}"
+        />

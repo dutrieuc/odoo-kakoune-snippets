@@ -1,0 +1,13 @@
+<record id="view_${0:res_model}_form" model="ir.ui.view">
+    <field name="name">view.${1:object_name}.form</field>
+    <field name="model">${1:object_name}</field>
+    <field name="arch" type="xml">
+        <form string="">
+            <sheet>
+                <group>
+                    <field name="name"/>
+                </group>
+            </sheet>
+        </form>
+    </field>
+</record>

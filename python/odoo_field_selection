@@ -1,0 +1,1 @@
+${0:field_name} = fields.Selection(string="${1:field_label}", selection=[('', ''), ('', ''), ], required=False, )

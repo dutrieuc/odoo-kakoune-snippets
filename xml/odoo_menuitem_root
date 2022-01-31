@@ -1,0 +1,1 @@
+<menuitem id="menu_${0:menu_id}_root" name="${1:menu_label}" sequence="${2:sequence}"/>

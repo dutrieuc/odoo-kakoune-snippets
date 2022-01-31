@@ -1,0 +1,7 @@
+@api.one
+@api.depends('${0:dependency_field}')
+def _compute_amount(self):
+    """
+    @api.depends() should contain all fields that will be used in the calculations.
+    """
+    pass

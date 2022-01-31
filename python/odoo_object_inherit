@@ -1,0 +1,5 @@
+class ${0:class_name}(models.Model):
+    _name = '${1:object_name}'
+    _inherit = '${1:object_name}'
+
+    ${3:field_name} = fields.Char(string="${4:field_label}", required=False, )

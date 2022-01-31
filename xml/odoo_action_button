@@ -1,0 +1,1 @@
+<button name="%(${0:action_xml_id})d" class="oe_highlight" type="action" string="ObjectButton"/>

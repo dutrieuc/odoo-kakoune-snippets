@@ -1,0 +1,6 @@
+class ${0:class_name}(models.Model):
+    _name = '${1:object_name}'
+    _rec_name = 'name'
+    _description = '${2:desc}'
+
+    ${3:field_name} = fields.Char(string="${4:field_label}", required=False, )

@@ -1,0 +1,13 @@
+<record id="view_${0:tree_id}_inherit_tree" model="ir.ui.view">
+    <field name="name">view.${1:object_name}.inherit.tree</field>
+    <field name="model">${1:object_name}</field>
+    <field name="inherit_id" ref="${3:parent_xml_id}"/>
+    <field name="arch" type="xml">
+
+        <!-- position: after|before|replace|attributes|inside -->
+        <xpath expr="//field[@name='${4:field_name}']" position="${5:xposition}">
+            <!-- Add your fields or attributes here -->
+        </xpath>
+        
+    </field>
+</record>

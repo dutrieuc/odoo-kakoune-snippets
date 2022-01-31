@@ -1,0 +1,1 @@
+${0:field_name} = fields.Date(string="${1:field_label}", required=False, default=fields.Date.context_today)

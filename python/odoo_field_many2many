@@ -1,0 +1,1 @@
+${0:field_name}_ids = fields.Many2many(comodel_name="${1:target_relation}", relation="${2:relation}", column1="${3:col1}", column2="${4:col2}", string="${5:field_label}", )

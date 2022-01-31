@@ -1,0 +1,13 @@
+<record id="action_${0:action_name}_view" model="ir.actions.act_window">
+    <field name="name">${1:action_desc}</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">${2:object_name}</field>
+    <field name="view_mode">tree,form</field>
+    <field name="help" type="html">
+      <p class="oe_view_nocontent_create">
+        ${3:desc_title}
+      </p><p>
+        ${4:long_desc} 
+      </p>
+    </field>
+</record>

@@ -1,0 +1,1 @@
+${0:field_name} = fields.Float(string="${1:field_label}",  required=False, )

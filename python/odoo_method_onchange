@@ -1,0 +1,3 @@
+@api.onchange('${0:FIELD_NAME}')
+def _onchange_${0:FIELD_NAME}(self):
+    pass

@@ -1,0 +1,18 @@
+<table class="table table-condensed">
+    <thead>
+        <tr>
+            <th>${0:HEAD_1}</th>
+            <th class="text-right">${1:HEAD_2}</th>
+            <th class="text-right">${2:HEAD_3}</th>
+            <th class="text-right">${3:HEAD_4}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr t-foreach="${4:OBJECTS}" t-as="${5:OBJECT}">
+            <td><span t-esc="${5:OBJECT}.${7:field1}"/></td>
+            <td class="text-right"><span t-esc="${5:OBJECT}.${9:field2}"/></td>
+            <td class="text-right"><span t-esc="${5:OBJECT}.${11:field3}"/></td>
+            <td class="text-right"><span t-esc="${5:OBJECT}.${13:field4}"/></td>
+        </tr>        
+    </tbody>
+</table>

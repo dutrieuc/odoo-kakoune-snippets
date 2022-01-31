@@ -1,0 +1,1 @@
+<menuitem id="menu_${0:menu_id}_categ" name="${1:menu_label}" parent="${2:parent_xml_id}" sequence="${3:sequence}"/>

@@ -1,0 +1,8 @@
+<group string="${0:group_label}">
+    <group>
+        <field name="${1:field_name1}"/>
+    </group>
+    <group>
+        <field name="${2:field_name2}"/>
+    </group>
+</group>

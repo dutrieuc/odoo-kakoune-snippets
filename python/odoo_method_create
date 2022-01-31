@@ -1,0 +1,4 @@
+@api.model
+def create(self, values):
+    # Add code here
+    return super(${0:class_name}, self).create(values)

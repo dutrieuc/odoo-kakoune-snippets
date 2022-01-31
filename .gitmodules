@@ -1,0 +1,3 @@
+[submodule "odoo-pycharm-templates"]
+	path = odoo-pycharm-templates
+	url = git@github.com:mohamedmagdy/odoo-pycharm-templates.git
